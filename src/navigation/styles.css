@@ -1,13 +1,17 @@
-/*.App {*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  text-align: center;*/
-/*  background-color: #282c34;*/
-/*  font-size: calc(10px + 2vmin);*/
-/*  color: white;*/
-/*  min-height: 50vh;*/
-/*  align-items: center;*/
-/*}*/
+.App {
+  background-color: black;
+  background-image: url(https://acegif.com/wp-content/gif/outerspace-30.gif);
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 50vh;
+  align-items: center;
+}
 
 /*.App-logo {*/
 /*  height: 40vmin;*/
@@ -22,11 +26,6 @@
 
 @media (prefers-reduced-motion: no-preference) {
 .Navigation {
-  background-color: black;
-  background-image: url("https://acegif.com/wp-content/gif/outerspace-30.gif");
-  background-size: 60% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 400px;
   width: 100%;
   min-height: 100vh;
